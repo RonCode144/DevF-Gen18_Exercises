@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-colors {
+   display: flex;
+   width: 100%;
+}
+
+.bg-color-left {
+    display: flex;
+    display: inline-block;
+    position: relative;
+    background-color: #0a4168;
+    width: 50%;
+    height: 100vh;
+}
+
+.modelo {
+    display: inline-block;
+    position: relative;
+    background-repeat: none repeat;
+    background-size: cover;
+    width: 80%;
+    height: 100%;
+    left: 100px;
+}
+
+.bg-color-right {
+    display: inline-block;
+    position: relative;
+    background-color: #00377b;
+    width: 50%;
+    height: 100vh;
+}
+
+.welcome-area {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 470px;
+    height: 530px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px 1px;
+}
+
+.h1-welcome {
+    display: inline-block;
+    position: relative;
+    color: #00377b;
+    font-weight: normal;
+}
+
+.mi-tigo-color {
+    color: #00377b;
+    font-weight: bold;
+}
+
+.slogan {
+    color: #565656;;
+}
+
+.home-log-in {
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #00c8ff;
+    border: 0;
+    padding: 0;
+}
+
+.home-log-in:hover {
+    background-color: #00377b;
+}
+
+.mobile-log-in {
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #00c8ff;
+    border: 0;
+    padding: 0;
+}
+
+.mobile-log-in:hover {
+    background-color: #00377b;
+}

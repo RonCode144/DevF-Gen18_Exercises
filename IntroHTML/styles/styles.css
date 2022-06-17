@@ -1,0 +1,18 @@
+body{
+    padding: 1%;
+    margin: 1%;
+    background-color: rgb(243, 249, 255);
+}
+
+.hola_Mundo{
+    color: rgb(81, 81, 81);
+}
+
+.primer_Parrafo{
+    color: rgb(81, 81, 81);
+}
+
+.mapa{
+    width: 150px;
+    height: 200px;
+}

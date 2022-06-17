@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: 'Bebas Neue', cursive;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Menú Navegación
+.nav {
+    background-color: blueviolet;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+*/
+
+.h1{
+    position: relative;
+    display: inline-block;
+    top: 70px;
+    font-size: 80px;
+    color: darkslategrey;
+}
+
+.gutierrez {
+    color: rgb(46, 46, 47);
+}
+
+.div-imagen {
+    display: inline-block;
+    position: relative;
+    /*background-color: blue;*/
+    top: 75px;
+}
+
+.div-lista {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.264) ;
+}
+
+/*FLEX-CONTENT*/
+.ul_lista{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: 30px;
+    list-style: none;
+}
+
+.nav-bar {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    padding: 5px 55px;
+    text-decoration: none;
+    color: rgb(46, 46, 47);
+}
+
+.nav-bar:hover {
+    font-size: 32px;
+    color: rgb(223, 63, 0);
+}
+
+.fotoPerfil{
+    width: 250px;
+    height: 330px;
+    border-radius: 180px;
+    outline-color: rgb(251, 199, 26);
+}
+
+.indexFooter{
+    display:inline-block;
+    position: relative;
+    background-color: darkslategray;
+    height: 50px;
+    width: 100%;
+    top: 150px;
+}
+
+footer nav ul li{
+    font-size: large;
+    text-align: center;
+    padding-top: 13px;
+    color: aliceblue;
+    list-style: none;
+}
+
